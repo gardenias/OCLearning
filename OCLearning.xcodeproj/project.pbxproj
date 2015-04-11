@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDE3801A1A1B78710033FFB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE380191A1B78710033FFB1 /* main.m */; };
+		FDE3801A1A1B78710033FFB1 /* NSLogAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE380191A1B78710033FFB1 /* NSLogAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		FDE380161A1B78710033FFB1 /* OCLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCLearning; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDE380191A1B78710033FFB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDE380191A1B78710033FFB1 /* NSLogAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLogAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		FDE380181A1B78710033FFB1 /* OCLearning */ = {
 			isa = PBXGroup;
 			children = (
-				FDE380191A1B78710033FFB1 /* main.m */,
+				FDE380191A1B78710033FFB1 /* NSLogAPI.m */,
 			);
 			path = OCLearning;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDE3801A1A1B78710033FFB1 /* main.m in Sources */,
+				FDE3801A1A1B78710033FFB1 /* NSLogAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +232,7 @@
 				FDE3801F1A1B78710033FFB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
