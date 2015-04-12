@@ -12,7 +12,10 @@
 @interface Fraction : NSObject
 
 - (void)print;
+
+- (int)numerator;
 - (void)setNumerator:(int)numerator;
+- (int)denominator;
 - (void)setDenominator:(int)denominator;
 
 @end

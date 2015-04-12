@@ -16,12 +16,21 @@
 
 - (void)print
 {
-    NSLog(@"%i/%i", numerator, denominator);
+    NSLog(@"franction is %i/%i", numerator, denominator);
 }
 
+- (int) numerator
+{
+    return numerator;
+}
 - (void)setNumerator:(int)n
 {
     numerator = n;
+}
+
+- (int) denominator
+{
+    return denominator;
 }
 
 - (void)setDenominator:(int)n
