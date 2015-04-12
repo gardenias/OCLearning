@@ -11,7 +11,7 @@
 
 @interface NSLogPrint : NSObject
 
-- (void)print;
++ (void)print;
 
 @end
 

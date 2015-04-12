@@ -23,5 +23,7 @@
 
 - (void) printPoint;
 
++ (void) test;
+
 @end
 #endif

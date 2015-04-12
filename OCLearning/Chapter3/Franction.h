@@ -9,7 +9,7 @@
 #ifndef OCLearning_Franction_h
 #define OCLearning_Franction_h
 
-@interface Fraction : NSObject
+@interface Franction : NSObject
 
 - (void)print;
 
@@ -17,7 +17,7 @@
 - (void)setNumerator:(int)numerator;
 - (int)denominator;
 - (void)setDenominator:(int)denominator;
-
++ (void)test;
 @end
 
 #endif

@@ -44,4 +44,22 @@
     NSLog(@"(x,y)=(%i,%i)", x, y);
 }
 
++ (void) test{
+    NSLog(@"=========================================");
+    NSLog(@"=========== Chapter Three ===============");
+    NSLog(@"=========== XYPoint =====================");
+    NSLog(@"=========================================");
+    XYPoint *point = [[XYPoint alloc] init];
+    point.x = 19;
+    point.y = 10;
+    [point printPoint];
+    
+    [point setX:30 andY:93];
+    [point printPoint];
+    
+    [point setValue:[[NSNumber alloc] initWithInt:10] forKey:@"x"];
+    [point setValue:[[NSNumber alloc] initWithInt:20] forKey:@"y"];
+    [point printPoint];
+}
+
 @end

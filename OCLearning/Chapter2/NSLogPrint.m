@@ -11,8 +11,12 @@
 
 @implementation NSLogPrint
 
-- (void)print
++ (void)print
 {
+    NSLog(@"=========================================");
+    NSLog(@"=========== Chapter Tow ================");
+    NSLog(@"=========== NSLogPrint ==================");
+    NSLog(@"=========================================");
     int i;
 
     i = 1;
