@@ -7,10 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface NSLogPrint : NSObject
-- (void)print;
-@end
+#import "NSLogPrint.h"
 
 @implementation NSLogPrint
 

@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDE3801A1A1B78710033FFB1 /* NSLogAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE380191A1B78710033FFB1 /* NSLogAPI.m */; };
+		FD4C71391ADA4F7800DA9AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C71361ADA4F7800DA9AF8 /* main.m */; };
+		FD4C71581ADA5F8F00DA9AF8 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C71541ADA5F8F00DA9AF8 /* Fraction.m */; };
+		FD4C715F1ADA5FAD00DA9AF8 /* NSLogPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C715C1ADA5FAD00DA9AF8 /* NSLogPrint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FDE380141A1B78710033FFB1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FD4C71361ADA4F7800DA9AF8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD4C71541ADA5F8F00DA9AF8 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		FD4C71551ADA5F8F00DA9AF8 /* Franction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Franction.h; sourceTree = "<group>"; };
+		FD4C715B1ADA5FAD00DA9AF8 /* NSLogPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogPrint.h; sourceTree = "<group>"; };
+		FD4C715C1ADA5FAD00DA9AF8 /* NSLogPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogPrint.m; sourceTree = "<group>"; };
 		FDE380161A1B78710033FFB1 /* OCLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCLearning; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDE380191A1B78710033FFB1 /* NSLogAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLogAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD4C71531ADA5F8F00DA9AF8 /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				FD4C71541ADA5F8F00DA9AF8 /* Fraction.m */,
+				FD4C71551ADA5F8F00DA9AF8 /* Franction.h */,
+			);
+			path = Chapter3;
+			sourceTree = "<group>";
+		};
+		FD4C715A1ADA5FAD00DA9AF8 /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				FD4C715B1ADA5FAD00DA9AF8 /* NSLogPrint.h */,
+				FD4C715C1ADA5FAD00DA9AF8 /* NSLogPrint.m */,
+			);
+			path = Chapter2;
+			sourceTree = "<group>";
+		};
 		FDE3800D1A1B78710033FFB1 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +81,9 @@
 		FDE380181A1B78710033FFB1 /* OCLearning */ = {
 			isa = PBXGroup;
 			children = (
-				FDE380191A1B78710033FFB1 /* NSLogAPI.m */,
+				FD4C715A1ADA5FAD00DA9AF8 /* Chapter2 */,
+				FD4C71531ADA5F8F00DA9AF8 /* Chapter3 */,
+				FD4C71361ADA4F7800DA9AF8 /* main.m */,
 			);
 			path = OCLearning;
 			sourceTree = "<group>";
@@ -118,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDE3801A1A1B78710033FFB1 /* NSLogAPI.m in Sources */,
+				FD4C71391ADA4F7800DA9AF8 /* main.m in Sources */,
+				FD4C715F1ADA5FAD00DA9AF8 /* NSLogPrint.m in Sources */,
+				FD4C71581ADA5F8F00DA9AF8 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +186,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -182,7 +211,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -193,8 +222,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;

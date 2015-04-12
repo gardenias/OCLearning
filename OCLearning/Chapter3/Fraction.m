@@ -7,14 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Fraction : NSObject
-
-- (void)print;
-- (void)setNumerator:(int)numerator;
-- (void)setDenominator:(int)denominator;
-
-@end
+#import "Franction.h"
 
 @implementation Fraction {
     int numerator;
