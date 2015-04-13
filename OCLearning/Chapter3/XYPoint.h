@@ -9,9 +9,9 @@
 #ifndef OCLearning_XYPoint_h
 #define OCLearning_XYPoint_h
 
-#import <Foundation/Foundation.h>
+#import "Learning.h"
 
-@interface XYPoint : NSObject
+@interface XYPoint : Learning
 
 - (int)x;
 - (void)setX:(int)xValue;

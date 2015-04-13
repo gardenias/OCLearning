@@ -63,12 +63,8 @@
 }
 
 + (void) test{
-    NSLog(@"=========================================");
-    NSLog(@"=========== Chapter Four ================");
-    NSLog(@"=========== Calculator ==================");
-    NSLog(@"=========================================");
-    
-    Calculator * calculator = [[Calculator alloc] init];
+    Calculator * calculator = [[Calculator alloc] initWithChapterName:@"Chapter 4"];
+    [calculator summary];
     [calculator setAccumulator:19];
     NSLog(@"calculator = %g",calculator.accumulator);
     NSLog(@"calculator = %g",[calculator add:10]);

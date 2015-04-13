@@ -29,7 +29,7 @@
         return nil;
     }
 
-    return [[[Factorial alloc] init] setBase:value];
+    return (Factorial *)[[[[Factorial alloc] initWithChapterName:@"Chapter 5"] setBase:value] summary];
 }
 
 - (void)factorial
@@ -50,10 +50,6 @@
 
 + (void)test
 {
-    NSLog(@"=========================================");
-    NSLog(@"=========== Chapter Five ================");
-    NSLog(@"=========== Factorial ===================");
-    NSLog(@"=========================================");
     [[Factorial on:5] factorial];
     [[Factorial on:10] factorial];
     [[Factorial on:15] factorial];

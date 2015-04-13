@@ -13,6 +13,7 @@
 		FD4C71671ADA66ED00DA9AF8 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C71661ADA66ED00DA9AF8 /* XYPoint.m */; };
 		FD4C716C1ADA9E5400DA9AF8 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C716B1ADA9E5400DA9AF8 /* Calculator.m */; };
 		FD7263831ADC0FEB003371B1 /* Factorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7263821ADC0FEB003371B1 /* Factorial.m */; };
+		FD7263861ADC248B003371B1 /* Learning.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7263851ADC248B003371B1 /* Learning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,8 @@
 		FD4C716B1ADA9E5400DA9AF8 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		FD7263811ADC0F49003371B1 /* Factorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
 		FD7263821ADC0FEB003371B1 /* Factorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factorial.m; sourceTree = "<group>"; };
+		FD7263841ADC2460003371B1 /* Learning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Learning.h; sourceTree = "<group>"; };
+		FD7263851ADC248B003371B1 /* Learning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Learning.m; sourceTree = "<group>"; };
 		FDE380161A1B78710033FFB1 /* OCLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCLearning; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,6 +118,8 @@
 				FD4C71531ADA5F8F00DA9AF8 /* Chapter3 */,
 				FD4C71691ADA74C600DA9AF8 /* Chapter4 */,
 				FD7263801ADC0F49003371B1 /* Chapter5 */,
+				FD7263841ADC2460003371B1 /* Learning.h */,
+				FD7263851ADC248B003371B1 /* Learning.m */,
 			);
 			path = OCLearning;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				FD4C71581ADA5F8F00DA9AF8 /* Franction.m in Sources */,
 				FD4C71671ADA66ED00DA9AF8 /* XYPoint.m in Sources */,
 				FD4C716C1ADA9E5400DA9AF8 /* Calculator.m in Sources */,
+				FD7263861ADC248B003371B1 /* Learning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

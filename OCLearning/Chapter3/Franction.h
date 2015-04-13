@@ -9,7 +9,9 @@
 #ifndef OCLearning_Franction_h
 #define OCLearning_Franction_h
 
-@interface Franction : NSObject
+#import "Learning.h"
+
+@interface Franction : Learning
 
 - (void)print;
 

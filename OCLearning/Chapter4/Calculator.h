@@ -9,9 +9,9 @@
 #ifndef OCLearning_Calculator_h
 #define OCLearning_Calculator_h
 
-#import <Foundation/Foundation.h>
+#import "Learning.h"
 
-@interface Calculator : NSObject
+@interface Calculator : Learning
 
 - (void)setAccumulator:(double)value;
 

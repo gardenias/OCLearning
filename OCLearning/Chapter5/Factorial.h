@@ -8,9 +8,9 @@
 
 #ifndef OCLearning_Factorial_h
 #define OCLearning_Factorial_h
-#import <Foundation/Foundation.h>
+#import "Learning.h"
 
-@interface Factorial : NSObject
+@interface Factorial : Learning
 
 + (Factorial *)on:(int)value;
 

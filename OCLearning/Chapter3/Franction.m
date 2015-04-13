@@ -41,12 +41,10 @@
 
 + (void)test
 {
-    NSLog(@"=========================================");
-    NSLog(@"=========== Chapter Three ===============");
-    NSLog(@"=========== Franction ===================");
-    NSLog(@"=========================================");
-    Franction *fanction = [[Franction alloc] init];
+    Franction *fanction = [[Franction alloc] initWithChapterName:@"Chapter Three"];
 
+    [fanction summary];
+    
     [fanction setNumerator:10];
     [fanction setDenominator:10];
     [fanction print];

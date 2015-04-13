@@ -11,12 +11,8 @@
 
 @implementation NSLogPrint
 
-+ (void)print
+- (void)print
 {
-    NSLog(@"=========================================");
-    NSLog(@"=========== Chapter Tow ================");
-    NSLog(@"=========== NSLogPrint ==================");
-    NSLog(@"=========================================");
     int i;
 
     i = 1;
@@ -28,6 +24,12 @@
     int sum;
     sum = 25 + 37 - 19;
     NSLog(@"...%i", sum);
+}
+
++ (void)test{
+    NSLogPrint * nsLogPrint = [[NSLogPrint alloc] initWithChapterName:@"Chapter 2"];
+    [nsLogPrint summary];
+    [nsLogPrint print];
 }
 
 @end

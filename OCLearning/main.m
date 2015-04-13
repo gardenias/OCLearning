@@ -17,7 +17,7 @@ int main(int argc, const char *argv[])
 {
     @autoreleasepool {
         // chaptor 2
-        [NSLogPrint print];
+        [NSLogPrint test];
 
         // chapter 3
         [Franction test];

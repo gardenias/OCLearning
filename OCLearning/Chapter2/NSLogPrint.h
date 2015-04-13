@@ -9,10 +9,13 @@
 #ifndef OCLearning_NSLogPrint_h
 #define OCLearning_NSLogPrint_h
 
-@interface NSLogPrint : NSObject
+#import "Learning.h"
 
-+ (void)print;
+@interface NSLogPrint : Learning
 
+- (void)print;
+
++ (void)test;
 @end
 
 #endif
