@@ -1,0 +1,8 @@
+
+.idea/*
+
+*.xcsettings
+
+*.xccheckout
+
+*.xcbkptlist
