@@ -11,6 +11,7 @@
 #import "Chapter3/Franction.h"
 #import "Chapter3/XYPoint.h"
 #import "Chapter4/Calculator.h"
+#import "Chapter5/Factorial.h"
 
 int main(int argc, const char *argv[])
 {
@@ -26,6 +27,9 @@ int main(int argc, const char *argv[])
         
         //chaptre 4
         [Calculator test];
+        
+        //chapter 5
+        [Factorial test];
     };
     return 0;
 }
