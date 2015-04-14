@@ -13,6 +13,7 @@
 #import "Chapter4/Calculator.h"
 #import "Chapter5/Factorial.h"
 #import "Chapter5/NumbersSum.h"
+#import "Chapter7/FractionChapter7.h"
 
 int main(int argc, const char *argv[])
 {
@@ -32,6 +33,10 @@ int main(int argc, const char *argv[])
         //chapter 5
         [Factorial test];
         [NumbersSum test];
+        
+        //chapter 7
+        [FractionChapter7 test];
+        
     };
     return 0;
 }
