@@ -12,6 +12,7 @@
 		FD4C715F1ADA5FAD00DA9AF8 /* NSLogPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C715C1ADA5FAD00DA9AF8 /* NSLogPrint.m */; };
 		FD4C71671ADA66ED00DA9AF8 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C71661ADA66ED00DA9AF8 /* XYPoint.m */; };
 		FD4C716C1ADA9E5400DA9AF8 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C716B1ADA9E5400DA9AF8 /* Calculator.m */; };
+		FD61C3771ADD5E4000A79024 /* NumbersSum.m in Sources */ = {isa = PBXBuildFile; fileRef = FD61C3761ADD5E4000A79024 /* NumbersSum.m */; };
 		FD7263831ADC0FEB003371B1 /* Factorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7263821ADC0FEB003371B1 /* Factorial.m */; };
 		FD7263861ADC248B003371B1 /* Learning.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7263851ADC248B003371B1 /* Learning.m */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,8 @@
 		FD4C71661ADA66ED00DA9AF8 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 		FD4C716A1ADA74C600DA9AF8 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		FD4C716B1ADA9E5400DA9AF8 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		FD61C3751ADD5E4000A79024 /* NumbersSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersSum.h; sourceTree = "<group>"; };
+		FD61C3761ADD5E4000A79024 /* NumbersSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersSum.m; sourceTree = "<group>"; };
 		FD7263811ADC0F49003371B1 /* Factorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
 		FD7263821ADC0FEB003371B1 /* Factorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factorial.m; sourceTree = "<group>"; };
 		FD7263841ADC2460003371B1 /* Learning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Learning.h; sourceTree = "<group>"; };
@@ -85,9 +88,18 @@
 			path = Chapter4;
 			sourceTree = "<group>";
 		};
+		FD61C3701ADD5AD700A79024 /* Chapter6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter6;
+			sourceTree = "<group>";
+		};
 		FD7263801ADC0F49003371B1 /* Chapter5 */ = {
 			isa = PBXGroup;
 			children = (
+				FD61C3751ADD5E4000A79024 /* NumbersSum.h */,
+				FD61C3761ADD5E4000A79024 /* NumbersSum.m */,
 				FD7263811ADC0F49003371B1 /* Factorial.h */,
 				FD7263821ADC0FEB003371B1 /* Factorial.m */,
 			);
@@ -114,12 +126,13 @@
 			isa = PBXGroup;
 			children = (
 				FD4C71361ADA4F7800DA9AF8 /* main.m */,
+				FD7263841ADC2460003371B1 /* Learning.h */,
+				FD7263851ADC248B003371B1 /* Learning.m */,
 				FD4C715A1ADA5FAD00DA9AF8 /* Chapter2 */,
 				FD4C71531ADA5F8F00DA9AF8 /* Chapter3 */,
 				FD4C71691ADA74C600DA9AF8 /* Chapter4 */,
 				FD7263801ADC0F49003371B1 /* Chapter5 */,
-				FD7263841ADC2460003371B1 /* Learning.h */,
-				FD7263851ADC248B003371B1 /* Learning.m */,
+				FD61C3701ADD5AD700A79024 /* Chapter6 */,
 			);
 			path = OCLearning;
 			sourceTree = "<group>";
@@ -180,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD61C3771ADD5E4000A79024 /* NumbersSum.m in Sources */,
 				FD4C71391ADA4F7800DA9AF8 /* main.m in Sources */,
 				FD7263831ADC0FEB003371B1 /* Factorial.m in Sources */,
 				FD4C715F1ADA5FAD00DA9AF8 /* NSLogPrint.m in Sources */,
