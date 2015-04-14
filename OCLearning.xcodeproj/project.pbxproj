@@ -13,6 +13,7 @@
 		FD4C71671ADA66ED00DA9AF8 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C71661ADA66ED00DA9AF8 /* XYPoint.m */; };
 		FD4C716C1ADA9E5400DA9AF8 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C716B1ADA9E5400DA9AF8 /* Calculator.m */; };
 		FD61C3771ADD5E4000A79024 /* NumbersSum.m in Sources */ = {isa = PBXBuildFile; fileRef = FD61C3761ADD5E4000A79024 /* NumbersSum.m */; };
+		FD61C37C1ADD67E800A79024 /* FractionChapter7.m in Sources */ = {isa = PBXBuildFile; fileRef = FD61C37B1ADD67E800A79024 /* FractionChapter7.m */; };
 		FD7263831ADC0FEB003371B1 /* Factorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7263821ADC0FEB003371B1 /* Factorial.m */; };
 		FD7263861ADC248B003371B1 /* Learning.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7263851ADC248B003371B1 /* Learning.m */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,8 @@
 		FD4C716B1ADA9E5400DA9AF8 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		FD61C3751ADD5E4000A79024 /* NumbersSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersSum.h; sourceTree = "<group>"; };
 		FD61C3761ADD5E4000A79024 /* NumbersSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersSum.m; sourceTree = "<group>"; };
+		FD61C37A1ADD66DC00A79024 /* FractionChapter7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractionChapter7.h; sourceTree = "<group>"; };
+		FD61C37B1ADD67E800A79024 /* FractionChapter7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractionChapter7.m; sourceTree = "<group>"; };
 		FD7263811ADC0F49003371B1 /* Factorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
 		FD7263821ADC0FEB003371B1 /* Factorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factorial.m; sourceTree = "<group>"; };
 		FD7263841ADC2460003371B1 /* Learning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Learning.h; sourceTree = "<group>"; };
@@ -95,6 +98,15 @@
 			path = Chapter6;
 			sourceTree = "<group>";
 		};
+		FD61C3791ADD66DC00A79024 /* Chapter7 */ = {
+			isa = PBXGroup;
+			children = (
+				FD61C37A1ADD66DC00A79024 /* FractionChapter7.h */,
+				FD61C37B1ADD67E800A79024 /* FractionChapter7.m */,
+			);
+			path = Chapter7;
+			sourceTree = "<group>";
+		};
 		FD7263801ADC0F49003371B1 /* Chapter5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +145,7 @@
 				FD4C71691ADA74C600DA9AF8 /* Chapter4 */,
 				FD7263801ADC0F49003371B1 /* Chapter5 */,
 				FD61C3701ADD5AD700A79024 /* Chapter6 */,
+				FD61C3791ADD66DC00A79024 /* Chapter7 */,
 			);
 			path = OCLearning;
 			sourceTree = "<group>";
@@ -199,6 +212,7 @@
 				FD4C715F1ADA5FAD00DA9AF8 /* NSLogPrint.m in Sources */,
 				FD4C71581ADA5F8F00DA9AF8 /* Franction.m in Sources */,
 				FD4C71671ADA66ED00DA9AF8 /* XYPoint.m in Sources */,
+				FD61C37C1ADD67E800A79024 /* FractionChapter7.m in Sources */,
 				FD4C716C1ADA9E5400DA9AF8 /* Calculator.m in Sources */,
 				FD7263861ADC248B003371B1 /* Learning.m in Sources */,
 			);
