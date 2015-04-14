@@ -10,14 +10,16 @@
 
 @implementation NumbersSum
 
+@synthesize number;
+
 - (void)sum
 {
     const int       step = 10;
     int             sum = 0;
     int             remainder = 0;
-    int             quotient = _number;
+    int             quotient = number;
     
-    NSMutableString *resultOutput = [[NSMutableString alloc] initWithFormat:@"[%i]=0", _number];
+    NSMutableString *resultOutput = [[NSMutableString alloc] initWithFormat:@"[%i]=0", number];
 
     while (quotient > 0) {
         remainder = quotient % step;
