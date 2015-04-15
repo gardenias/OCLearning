@@ -1,5 +1,5 @@
 //
-//  Franction.h
+//  Fraction.h
 //  OCLearning
 //
 //  Created by 吴一敏 on 15/4/12.
@@ -11,7 +11,7 @@
 
 #import "Learning.h"
 
-@interface Franction : Learning
+@interface Fraction : Learning
 
 - (void)print;
 

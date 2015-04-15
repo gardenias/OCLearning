@@ -1,5 +1,5 @@
 //
-//  Franction.h
+//  Fraction.h
 //  OCLearning
 //
 //  Created by 吴一敏 on 15/4/14.
@@ -9,9 +9,9 @@
 #ifndef OCLearning_FranctionChapter7_h
 #define OCLearning_FranctionChapter7_h
 
-#import "../Chapter3/Franction.h"
+#import "Fraction.h"
 
-@interface FractionChapter7 : Franction
+@interface FractionChapter7 : Fraction
 
 @property int numerator, denominator;
 

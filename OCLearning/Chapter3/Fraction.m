@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Franction.h"
+#import "Fraction.h"
 
-@implementation Franction {
+@implementation Fraction {
     int numerator;
     int denominator;
 }
@@ -41,7 +41,7 @@
 
 + (void)test
 {
-    Franction *fanction = [[Franction alloc] initWithChapterName:@"Chapter Three"];
+    Fraction *fanction = [[Fraction alloc] initWithChapterName:@"Chapter Three"];
 
     [fanction summary];
     
@@ -50,7 +50,7 @@
     [fanction print];
 
     // accessor:getter and setter
-    fanction = [[Franction alloc] init];
+    fanction = [[Fraction alloc] init];
     fanction.numerator = 1;
     fanction.denominator = 10;
     [fanction print];

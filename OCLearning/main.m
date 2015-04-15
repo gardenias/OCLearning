@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Chapter2/NSLogPrint.h"
-#import "Chapter3/Franction.h"
+#import "Fraction.h"
 #import "Chapter3/XYPoint.h"
 #import "Chapter4/Calculator.h"
 #import "Chapter5/Factorial.h"
@@ -23,7 +23,7 @@ int main(int argc, const char *argv[])
         [NSLogPrint test];
 
         // chapter 3
-        [Franction test];
+        [Fraction test];
 
         // xy point
         [XYPoint test];
