@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DA7D8C6D47C5746C9987167 /* EnumAPILearning.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA7DA4D04D7C157FDD73641 /* EnumAPILearning.m */; };
 		FD4C71391ADA4F7800DA9AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C71361ADA4F7800DA9AF8 /* main.m */; };
-		FD4C71581ADA5F8F00DA9AF8 /* Franction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C71541ADA5F8F00DA9AF8 /* Franction.m */; };
+		FD4C71581ADA5F8F00DA9AF8 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C71541ADA5F8F00DA9AF8 /* Fraction.m */; };
 		FD4C715F1ADA5FAD00DA9AF8 /* NSLogPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C715C1ADA5FAD00DA9AF8 /* NSLogPrint.m */; };
 		FD4C71671ADA66ED00DA9AF8 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C71661ADA66ED00DA9AF8 /* XYPoint.m */; };
 		FD4C716C1ADA9E5400DA9AF8 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4C716B1ADA9E5400DA9AF8 /* Calculator.m */; };
@@ -31,9 +32,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6DA7D2002B1A57FCA3122F50 /* SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = SUMMARY.md; sourceTree = "<group>"; };
+		6DA7D53FD5BED2D1DF9BDACE /* SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = SUMMARY.md; sourceTree = "<group>"; };
+		6DA7DA4D04D7C157FDD73641 /* EnumAPILearning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumAPILearning.m; sourceTree = "<group>"; };
+		6DA7DD81DF566492824D879B /* SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = SUMMARY.md; sourceTree = "<group>"; };
+		6DA7DF00F66C1D1AA109C571 /* EnumAPILearning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumAPILearning.h; sourceTree = "<group>"; };
 		FD4C71361ADA4F7800DA9AF8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FD4C71541ADA5F8F00DA9AF8 /* Franction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Franction.m; sourceTree = "<group>"; };
-		FD4C71551ADA5F8F00DA9AF8 /* Franction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Franction.h; sourceTree = "<group>"; };
+		FD4C71541ADA5F8F00DA9AF8 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		FD4C71551ADA5F8F00DA9AF8 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		FD4C715B1ADA5FAD00DA9AF8 /* NSLogPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLogPrint.h; sourceTree = "<group>"; };
 		FD4C715C1ADA5FAD00DA9AF8 /* NSLogPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLogPrint.m; sourceTree = "<group>"; };
 		FD4C71611ADA655D00DA9AF8 /* XYPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
@@ -62,11 +68,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DA7D4C65930207AB4DCCCF9 /* Chapter8 */ = {
+			isa = PBXGroup;
+			children = (
+				6DA7D2002B1A57FCA3122F50 /* SUMMARY.md */,
+			);
+			path = Chapter8;
+			sourceTree = "<group>";
+		};
+		6DA7D4E4C74BB3A6D5D2A763 /* Chapter10 */ = {
+			isa = PBXGroup;
+			children = (
+				6DA7D53FD5BED2D1DF9BDACE /* SUMMARY.md */,
+				6DA7DA4D04D7C157FDD73641 /* EnumAPILearning.m */,
+				6DA7DF00F66C1D1AA109C571 /* EnumAPILearning.h */,
+			);
+			path = Chapter10;
+			sourceTree = "<group>";
+		};
+		6DA7DE558C43D40E49A9D77C /* Chapter11 */ = {
+			isa = PBXGroup;
+			children = (
+				6DA7DD81DF566492824D879B /* SUMMARY.md */,
+			);
+			path = Chapter11;
+			sourceTree = "<group>";
+		};
 		FD4C71531ADA5F8F00DA9AF8 /* Chapter3 */ = {
 			isa = PBXGroup;
 			children = (
-				FD4C71541ADA5F8F00DA9AF8 /* Franction.m */,
-				FD4C71551ADA5F8F00DA9AF8 /* Franction.h */,
+				FD4C71541ADA5F8F00DA9AF8 /* Fraction.m */,
+				FD4C71551ADA5F8F00DA9AF8 /* Fraction.h */,
 				FD4C71611ADA655D00DA9AF8 /* XYPoint.h */,
 				FD4C71661ADA66ED00DA9AF8 /* XYPoint.m */,
 			);
@@ -146,6 +178,9 @@
 				FD7263801ADC0F49003371B1 /* Chapter5 */,
 				FD61C3701ADD5AD700A79024 /* Chapter6 */,
 				FD61C3791ADD66DC00A79024 /* Chapter7 */,
+				6DA7D4C65930207AB4DCCCF9 /* Chapter8 */,
+				6DA7D4E4C74BB3A6D5D2A763 /* Chapter10 */,
+				6DA7DE558C43D40E49A9D77C /* Chapter11 */,
 			);
 			path = OCLearning;
 			sourceTree = "<group>";
@@ -210,11 +245,12 @@
 				FD4C71391ADA4F7800DA9AF8 /* main.m in Sources */,
 				FD7263831ADC0FEB003371B1 /* Factorial.m in Sources */,
 				FD4C715F1ADA5FAD00DA9AF8 /* NSLogPrint.m in Sources */,
-				FD4C71581ADA5F8F00DA9AF8 /* Franction.m in Sources */,
+				FD4C71581ADA5F8F00DA9AF8 /* Fraction.m in Sources */,
 				FD4C71671ADA66ED00DA9AF8 /* XYPoint.m in Sources */,
 				FD61C37C1ADD67E800A79024 /* FractionChapter7.m in Sources */,
 				FD4C716C1ADA9E5400DA9AF8 /* Calculator.m in Sources */,
 				FD7263861ADC248B003371B1 /* Learning.m in Sources */,
+				6DA7D8C6D47C5746C9987167 /* EnumAPILearning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
