@@ -15,6 +15,7 @@
 #import "Chapter5/NumbersSum.h"
 #import "Chapter7/FractionChapter7.h"
 #import "EnumAPILearning.h"
+#import "FractionChapter7+MathOps.h"
 
 int main(int argc, const char *argv[])
 {
@@ -40,6 +41,9 @@ int main(int argc, const char *argv[])
 
         //chapter 10
         [EnumAPILearning test];
+
+        //chapter 11
+        [FractionChapter7 categoryTest];
         
     };
     return 0;

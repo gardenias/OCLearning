@@ -7,6 +7,7 @@
 //
 
 #import "FractionChapter7.h"
+#import "FractionChapter7+MathOps.h"
 
 @implementation FractionChapter7
 
@@ -30,16 +31,6 @@
     }
 
     return 0;
-}
-
-- (FractionChapter7 *)add:(FractionChapter7 *)f
-{
-    FractionChapter7 *result = [[FractionChapter7 alloc] initWithChapterName:@"Chapter 7"];
-
-    result.numerator = numerator * f.denominator + denominator * f.numerator;
-    result.denominator = denominator * f.denominator;
-    [result reduce];
-    return result;
 }
 
 - (FractionChapter7 *)reduce

@@ -19,9 +19,5 @@
 
 - (double)convertToNum;
 
-- (FractionChapter7 *)add:(FractionChapter7 *)f;
-
-- (FractionChapter7 *)reduce;
-
 @end
 #endif
