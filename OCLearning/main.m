@@ -17,6 +17,7 @@
 #import "EnumAPILearning.h"
 #import "FractionChapter7+MathOps.h"
 #import "Fibonacci.h"
+#import "FibonacciV2.h"
 
 int main(int argc, const char *argv[]) {
     @autoreleasepool {
@@ -46,7 +47,31 @@ int main(int argc, const char *argv[]) {
         [FractionChapter7 categoryTest];
 
         //chatper 13
-        [Fibonacci test:10];
+
+        int times = 1000;
+        NSDate *begin = [[NSDate alloc] init];
+        while (times-- > 0) {
+            [Fibonacci test:0];
+            [Fibonacci test:1];
+            [Fibonacci test:2];
+            [Fibonacci test:3];
+            [Fibonacci test:10];
+        }
+        NSDate *date = [[NSDate alloc] init];
+        times = 1000;
+        while (times-- > 0) {
+            [FibonacciV2 test:0];
+            [FibonacciV2 test:1];
+            [FibonacciV2 test:2];
+            [FibonacciV2 test:3];
+            [FibonacciV2 test:10];
+        }
+        NSLog(@"interval.v1 = %d", [date timeIntervalSinceDate:begin]);//interval.v1 = -1804358685
+        NSLog(@"interval.v2 = %d", [date timeIntervalSinceNow]);//interval.v2 = -2097072
+
+        int fibonacci = 30;
+        [Fibonacci test:fibonacci];
+        [FibonacciV2 test:fibonacci];
     };
     return 0;
 }
