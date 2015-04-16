@@ -47,7 +47,7 @@ int main(int argc, const char *argv[]) {
         [FractionChapter7 categoryTest];
 
         //chatper 13
-
+/*
         int times = 1000;
         NSDate *begin = [[NSDate alloc] init];
         while (times-- > 0) {
@@ -68,8 +68,8 @@ int main(int argc, const char *argv[]) {
         }
         NSLog(@"interval.v1 = %d", [date timeIntervalSinceDate:begin]);//interval.v1 = -1804358685
         NSLog(@"interval.v2 = %d", [date timeIntervalSinceNow]);//interval.v2 = -2097072
-
-        int fibonacci = 30;
+*/
+        int fibonacci = 10;
         [Fibonacci test:fibonacci];
         [FibonacciV2 test:fibonacci];
     };
