@@ -18,6 +18,7 @@
 #import "FractionChapter7+MathOps.h"
 #import "Fibonacci.h"
 #import "FibonacciV2.h"
+#import "NSCopyString.h"
 
 int main(int argc, const char *argv[]) {
     @autoreleasepool {
@@ -72,6 +73,8 @@ int main(int argc, const char *argv[]) {
         int fibonacci = 10;
         [Fibonacci test:fibonacci];
         [FibonacciV2 test:fibonacci];
+
+        [NSCopyString test];
     };
     return 0;
 }
