@@ -12,8 +12,7 @@
     NSString *chapterName;
 }
 
-- (Learning *)summary
-{
+- (Learning *)summary {
     NSLog(@"\n");
     NSLog(@"===================");
     NSLog(@"%@", chapterName);
@@ -21,10 +20,20 @@
     return self;
 }
 
-- (instancetype)initWithChapterName:(NSString *)chapter
-{
+- (void)setChapterName:(NSString *)chapter {
     chapterName = chapter;
-    return [super init];
+}
+
+- (NSString *)chapterName {
+    return chapterName;
+}
+
+- (instancetype)initWithChapterName:(NSString *)chapter {
+    self = [super init];
+    if (self) {
+        self.chapterName = chapter;
+    }
+    return self;
 }
 
 @end
