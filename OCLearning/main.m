@@ -19,6 +19,8 @@
 #import "Fibonacci.h"
 #import "FibonacciV2.h"
 #import "NSCopyString.h"
+#import "AddressCard.h"
+#import "AddressBook.h"
 
 int main(int argc, const char *argv[]) {
     @autoreleasepool {
@@ -75,6 +77,10 @@ int main(int argc, const char *argv[]) {
         [FibonacciV2 test:fibonacci];
 
         [NSCopyString test];
+
+        //chapter 15
+        [AddressCard test];
+        [AddressBook  test];
     };
     return 0;
 }
