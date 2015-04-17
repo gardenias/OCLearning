@@ -54,7 +54,7 @@
 		6DA7DAAE16748356CF01C1A8 /* AddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCard.m; sourceTree = "<group>"; };
 		6DA7DB8CAE3D6E3DA66671B0 /* Fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
 		6DA7DBAB78A98D372E3466D5 /* FractionChapter7+MathOps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FractionChapter7+MathOps.m"; sourceTree = "<group>"; };
-		6DA7DBAD3ED492EB9C1EE034 /* SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = SUMMARY.md; sourceTree = "<group>"; };
+		6DA7DBAD3ED492EB9C1EE034 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 		6DA7DD81DF566492824D879B /* SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = SUMMARY.md; sourceTree = "<group>"; };
 		6DA7DE452977EF81AF97C938 /* NSCopyString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCopyString.m; sourceTree = "<group>"; };
 		6DA7DF00F66C1D1AA109C571 /* EnumAPILearning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumAPILearning.h; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		6DA7D59B870E70409D68F688 /* Chapter15 */ = {
 			isa = PBXGroup;
 			children = (
-				6DA7DBAD3ED492EB9C1EE034 /* SUMMARY.md */,
+				6DA7DBAD3ED492EB9C1EE034 /* README.md */,
 				6DA7DAAE16748356CF01C1A8 /* AddressCard.m */,
 				6DA7D8FAB7539ABE85A449E5 /* AddressCard.h */,
 				6DA7D357FAFC4D4E24C11D01 /* AddressBook.m */,
